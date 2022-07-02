@@ -1,0 +1,37 @@
+package com.ptpl.sequence;
+import java.util.Scanner;
+
+public class LargestOfThreeNo
+{
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		int n1,n2,n3;
+		System.out.println("Enter any 3 numbers");
+		
+		n1=s.nextInt();
+		n2=s.nextInt();
+		n3=s.nextInt();
+		
+		if(n1>n2)
+		{
+			if(n1>n3)
+				System.out.println(n1+" is largest then "+n2);
+			else
+				System.out.println(n3+" is largest then "+n3);
+				
+		}
+		else
+			
+		{
+			
+			if(n2>n3)
+				System.out.println(n2+" is largest then "+n2);
+			else
+				System.out.println(n3+" is largest then "+n3);
+		}
+			
+	}
+}
