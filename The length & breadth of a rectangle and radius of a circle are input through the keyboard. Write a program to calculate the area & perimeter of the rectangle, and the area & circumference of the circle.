@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class AreaAndRectangle 
+ {  
+   public static void main (String args[])  
+    {      
+
+		float length ,breadth, perimeter,area;  
+	
+           	double pi, r , a, c;	
+
+                 Scanner in = new Scanner(System.in);
+
+
+       
+        System.out.print("Enter length of rectangle: ");
+        length = in.nextFloat();
+        
+        System.out.print("Enter breadth of rectangle: ");
+        breadth = in.nextFloat();
+
+                    perimeter  = 2 * (length+breadth);  
+		   
+			area = length * breadth;
+			
+			r = 10.8;
+
+			pi = 3.1416;
+
+			a = pi * r * r;
+			
+			c= pi * 2 * r;
+
+            System.out.println("Perimeter of Rectangle is: "+perimeter);  
+	    System.out.println("Area of rectangle is " + area);
+
+	
+	    System.out.println(" Area of circle is "  + a);
+	    System.out.println("The circumference of the circle is" + c);
+
+}
+
+}
