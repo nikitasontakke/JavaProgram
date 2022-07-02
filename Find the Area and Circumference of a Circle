@@ -1,0 +1,26 @@
+class FloatAreaOfCircle
+
+{
+
+public static void main(String args[])
+{
+
+	double pi, r , a, c;
+	
+
+r = 10.8;
+
+pi = 3.1416;
+
+a = pi * r * r;
+c= pi * 2 * r;
+
+
+System.out.println(" Area of circle is "  + a);
+System.out.println("The circumference of the circle is" + c);
+
+
+}
+
+}
+
