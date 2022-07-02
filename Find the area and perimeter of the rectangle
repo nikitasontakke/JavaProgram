@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class PerimeterOfRectangle
+ {  
+   public static void main (String args[])  
+    {      float a ,b, perimeter,area;  
+
+                   Scanner in = new Scanner(System.in);
+
+
+       
+        System.out.print("Enter length of rectangle: ");
+        a = in.nextFloat();
+        
+        System.out.print("Enter width of rectangle: ");
+        b = in.nextFloat();
+
+                    perimeter  = 2 * (a+b);  
+		   area = a * b;
+
+            System.out.println("Perimeter of Rectangle is: "+perimeter);  
+	    System.out.println("Area of rectangle is " + area);
+    }}  
