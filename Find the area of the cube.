@@ -1,0 +1,15 @@
+class A{
+public int cube(int c)
+{
+return (c*c*c);
+}
+}
+public class Methodcube
+{
+public static void main(String []args)
+{
+	A a = new A();
+	int X = a.cube(5);
+	System.out.println(X);
+}
+}
