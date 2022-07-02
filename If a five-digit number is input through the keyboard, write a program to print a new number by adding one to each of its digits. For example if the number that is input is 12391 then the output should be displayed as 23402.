@@ -1,0 +1,25 @@
+import java.util.*;
+import java.io.*;
+  
+class PrintFiveDigitNo
+{
+   
+    public static void main(String[] args)
+    {
+        
+        int number = 12391;
+        
+        int add = 1;
+  
+        for (int i = 0; i < String.valueOf(number).length();
+             i++) 
+             {
+            
+           
+            add = add * 10;
+		
+        }
+       
+        System.out.println(number);
+    }
+}
