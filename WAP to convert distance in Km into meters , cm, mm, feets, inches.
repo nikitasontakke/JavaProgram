@@ -1,0 +1,56 @@
+#################################
+import java.util.Scanner;
+
+public class Kilometer{
+	
+	private static Scanner sc;
+	
+	public static void main(String[] args) {
+		
+		sc= new Scanner(System.in);
+
+		System.out.print("Please Enter the Kilometers =  ");
+		double kilometer = sc.nextDouble();
+		
+		double meter = kilometer * 1000.0;
+		double centimeter = kilometer * 100000.0;
+		double millimeter = kilometer * 1000000.0;
+		double inches =  kilometer * 100.0;
+		double feet =  kilometer *  100.0;
+		
+		System.out.println("Distance in KiloMeters  = " + kilometer);
+		System.out.println("Distance in Meters      = " + meter);
+		System.out.println("Distance in CentiMeters = " + centimeter);
+		System.out.println("Distance in MilliMeters = " + millimeter);
+		System.out.println("Distance in inches = " + inches);
+		System.out.println("Distance in feet = " + feet);
+		
+	}
+}
+
+###############################################
+
+import java.util.Scanner;
+
+public class Kilometer{
+	
+	
+	public static void main(String[] args) {
+		
+		sc= new Scanner(System.in);
+
+		System.out.print("Please Enter the Kilometers =  ");
+		
+	km=sc.nextDouble();
+	m= km*1000 ;
+	cm = m*100;
+	mm = cm*10;
+
+	System.out.println("Kilometer = "+km+"\nMeters = "+m+"\nCentimeters = "+cm);	 
+	
+	System.out.println("Milimeters = "+mm);
+}
+
+}
+
+		
