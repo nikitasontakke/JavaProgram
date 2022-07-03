@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class GrossSalary
+{
+public static void main(String args [])
+{
+Scanner sc = new Scanner(System.in);
+ 
+ double salary, dearness_allowance, rent_allowance;
+
+System.out.println("Enter Salary  ");
+salary = sc.nextDouble();
+
+dearness_allowance = (0.2 * salary );
+
+rent_allowance = (0.4 * salary);
+
+System.out.println("Ramesh's Gross Salary is "+( dearness_allowance + dearness_allowance + salary));
+}
+
+}
