@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class InterchangeOfContent
+{
+public static void main(String args[])
+{
+
+double C ,D, T;
+
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter any two values");
+
+	c=sc.nextDouble();
+	d=sc.nextDouble();
+  
+	System.out.println("Before InterchangeOfContent C = "+c+" D = "+d);	 
+	C=c+d;
+	D=c-d;
+	C=c-d;
+	System.out.println("After InterchangeOfContent C = "+c+" D = "+d);
+}
+}
+
