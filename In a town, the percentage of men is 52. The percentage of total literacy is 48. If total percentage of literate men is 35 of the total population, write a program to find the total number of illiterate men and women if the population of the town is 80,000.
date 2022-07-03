@@ -1,0 +1,16 @@
+class Population {
+
+ public static void main(String args[])
+ {
+  long pop=80000,ilm,ilw;       
+
+  ilm=(long)((0.52*pop)-(0.35*pop));      //Illiterate men
+  ilw=(long)((0.52*pop)-ilm);        //Illiterate women
+  
+  System.out.println("Population:"+pop);
+  System.out.println("Illiterate men:"+ilm);
+  System.out.println("Illiterate women:"+ilw);
+ }
+ 
+}
+
