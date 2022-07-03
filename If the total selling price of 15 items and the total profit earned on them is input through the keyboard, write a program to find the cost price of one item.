@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class SellingPrice
+{
+public static void main (String args[])
+{
+Scanner sc = new Scanner(System.in);
+
+double tsp,cp,tcp,ep;
+
+System.out.println("Enter the total selling price of 15 items");
+tsp = sc.nextDouble();
+
+System.out.println("Enter the earned profit on 15 items");
+ep = sc.nextDouble();
+
+    tcp=tsp-ep; 
+
+		cp=tcp/15; 
+
+System.out.println("Cost Price of one item:"+cp);
+}
+}
+
+
+   
+    
+    
