@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class coordinates
+
+{
+public static void main (String args [])
+
+{
+
+Scanner sc = new Scanner (System.in);
+
+int x,y;
+
+System.out.println("Enter the coordinates x and y ");
+x = sc.nextInt();
+y = sc.nextInt();
+
+if(x>0)
+	if(y>0)
+	System.out.println("Point lies in First Quadrant");
+if(x<0)
+	if(y>0)
+	System.out.println("Point lies in Second Quadrant");
+if(x<0)
+	if(y<0)
+	System.out.println("Point lies in Third Quadrant");
+if(x>0)
+	if(y<0)
+	System.out.println("Point lies in Fourth Quadrant");
+if(x!=0)
+	if(y==0)
+	System.out.println("Point lies on X-axis");
+if(x==0)
+	if(y!=0)
+	System.out.println("Point lies on Y-axis");
+if(x==0)
+	if(y==0)
+	System.out.println("Point is at Origin");
+}
+}
