@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class FiveSubject
+ {
+
+	public static void main(String[] args) {
+
+        double OpeartingSystem,Networking,SoftwareTesting,Java,ComputerGraphics,total,percentage;
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter Mark of OpeartingSystem");
+    OpeartingSystem= sc.nextDouble();
+System.out.println("Enter Mark of Networking");
+     Networking= sc.nextDouble();
+System.out.println("Enter Mark of SoftwareTesting");
+      SoftwareTesting= sc.nextDouble();
+System.out.println("Enter Mark of Java");
+      Java= sc.nextDouble();
+System.out.println("Enter Mark of ComputerGraphics");
+      ComputerGraphics= sc.nextDouble();
+
+      total =  OpeartingSystem+Networking+SoftwareTesting+Java+ComputerGraphics;
+      percentage = (total / 5);
+
+System.out.println("Aggregate Mark = "+total+" \nPercentage=" +percentage);
+}
+
+}
